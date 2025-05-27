@@ -8,3 +8,6 @@ jobs:
     uses: gardenlinux/package-build/.github/workflows/build.yml@main
     with:
       release: ${{ github.ref == 'refs/heads/main' }}
+      build_dep: |
+        gardenlinux/package-golang 1.23.8-1gl0+bp1592
+        gardenlinux/bp-package-golang-x-crypto 0.36.0-1+exp1gl0+bp1592

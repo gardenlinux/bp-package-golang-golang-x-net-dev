@@ -1,8 +1,7 @@
 pkg=golang-golang-x-net
 version_orig=1:0.27.0
-version="$version_orig-1"
-git_src -b debian/1%0.27.0-1 https://salsa.debian.org/go-team/packages/golang-golang-x-net.git
-apply_patches
+version="$version_orig-2"
+git_src -b debian/1%0.27.0-2 https://salsa.debian.org/go-team/packages/golang-golang-x-net.git
 
-version_suffix=gl0~bp1443
+version_suffix=gl0~bp1592
 
